@@ -215,6 +215,11 @@ Get Product Details:
 curl http://localhost:8081/api/products/1
 ```
 
+### Run unit tests
+```bash
+npm run test
+```
+
 ## Design Decisions
 ### 1. Flexible Attributes
 The design uses two core tables for attributes: attributes and product_attributes. This allows each customer to define their own custom attributes for products. This way, the system is scalable and adaptable to different customer needs.
